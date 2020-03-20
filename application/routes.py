@@ -1,6 +1,6 @@
 from flask import render_template, request, redirect
-from app import app, db
-from app.models import Entry
+from application import app, db
+from application.models import Entry
 
 jedi = "of the jedi"
 
