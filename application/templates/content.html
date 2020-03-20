@@ -31,7 +31,9 @@
                     <th>Id</th>
                     <th>Title</th>
                     <th>Description</th>
-                    <th>Operations</th>
+                    <th>Operations Status</th>
+					<th>Operations Delete</th>
+					<th>Operations Edit</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -45,10 +47,14 @@
                            href="/turn/{{ entry.id }}">
                             Turn Status
                         </a>
+					</td>
+					<td>
                         <a class="btn btn-danger"
                            href="/delete/{{ entry.id }}">
                             Delete
                         </a>
+					</td>
+					<td>
                         <a class="btn btn-info"
                            href="/update/{{ entry.id }}">
                             Edit
